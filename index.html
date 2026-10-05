@@ -323,9 +323,9 @@ footer p{font-family:var(--fm);font-size:12px;color:var(--dim)}
       </div>
       <div class="sg reveal">
         <div class="sc"><div class="sn grad" data-c="2023" data-f="1">0</div><div class="sl">Started coding</div></div>
-        <div class="sc"><div class="sn grad" data-c="4">0</div><div class="sl">Projects showcased</div></div>
-        <div class="sc"><div class="sn grad" data-c="7">0</div><div class="sl">Core technologies</div></div>
-        <div class="sc"><div class="sn grad" data-c="2">0</div><div class="sl">Worlds: web &amp; hardware</div></div>
+        <div class="sc"><div class="sn grad" data-c="+10">0</div><div class="sl">Projects showcased</div></div>
+        <div class="sc"><div class="sn grad" data-c="+5">0</div><div class="sl">Core technologies</div></div>
+        <div class="sc"><div class="sn grad" data-c="+20">0</div><div class="sl">Worlds: web &amp; hardware</div></div>
       </div>
     </div>
   </div>
@@ -380,7 +380,7 @@ footer p{font-family:var(--fm);font-size:12px;color:var(--dim)}
           <h3>Aqua Leaf <span class="grad">AI</span></h3>
           <p>A plant-care web app that tracks watering schedules and environmental data, with a clean dashboard for at-a-glance plant health.</p>
           <div class="stk"><span>JavaScript</span><span>CSS</span><span>API</span></div>
-          <span class="view">View project <span>↗</span></span></div>
+
       </div></article>
 
       <article class="pc p1 reveal" data-tilt><div class="pi">
@@ -388,7 +388,7 @@ footer p{font-family:var(--fm);font-size:12px;color:var(--dim)}
         <div class="pb"><h3>Smart Irrigation Vehicle</h3>
           <p>An autonomous, sensor-guided vehicle that waters crops precisely where needed, cutting water waste through real-time soil analysis.</p>
           <div class="stk"><span>Arduino</span><span>C++</span><span>Sensors</span><span>IoT</span></div>
-          <span class="view">View project <span>↗</span></span></div>
+   
       </div></article>
 
       <article class="pc p3 reveal" data-tilt><div class="pi">
@@ -396,7 +396,7 @@ footer p{font-family:var(--fm);font-size:12px;color:var(--dim)}
         <div class="pb"><h3>Localy Marketplace</h3>
           <p>A community marketplace concept connecting local sellers and buyers, with a fast, mobile-first browsing and listing experience.</p>
           <div class="stk"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-          <span class="view">View project <span>↗</span></span></div>
+ 
       </div></article>
 
       <article class="pc p4 reveal" data-tilt style="grid-column:1/-1"><div class="pi" style="flex-direction:row">
@@ -404,7 +404,7 @@ footer p{font-family:var(--fm);font-size:12px;color:var(--dim)}
         <div class="pb" style="flex:1"><h3>Personal Projects</h3>
           <p>A rotating collection of experiments: UI prototypes, small tools and code sketches built to learn and push new ideas.</p>
           <div class="stk"><span>Python</span><span>JavaScript</span><span>Design</span></div>
-          <span class="view">View project <span>↗</span></span></div>
+ 
       </div></article>
 
     </div>
@@ -435,7 +435,7 @@ footer p{font-family:var(--fm);font-size:12px;color:var(--dim)}
     <p class="lead reveal">Have a project, an idea, or just want to say hi? My inbox is open.</p>
     <div class="cg">
       <div class="term reveal">
-        <div class="th"><i></i><i></i><i></i><span>eyad@portfolio:~</span></div>
+        <div class="th"><i></i><i></i><i></i><span></span></div>
         <form class="tb" id="cf">
           <div class="cmd">&gt; START_A_CONVERSATION</div>
           <div class="f"><label for="n">name</label><input id="n" type="text" placeholder="Your name" required></div>
@@ -596,7 +596,7 @@ orb();
 
 /* ---- contact (front-end only, unchanged behavior) ---- */
 $('#cf').addEventListener('submit',e=>{e.preventDefault();
-  $('#note').textContent='// Message ready. Connect this form to a backend or a service like Formspree to send it.';e.target.reset()});
+  $('#note').textContent='';e.target.reset()});
 </script>
 </body>
 </html>
